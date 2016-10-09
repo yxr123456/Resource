@@ -1,0 +1,11 @@
+完全外连接 r1 full outer join r2 using (a1)（显示指明相同属性）
+	   r1 full outer join r2 on (a1)
+           r1 natural full outer join r2 (自动找相同属性）
+natural left outer join（保留左边的元组）
+natural ritht outer join（保留右边的元组）
+自然连接会合并两个表的相同属性，join则不会。
+inner join :只保留共有的，默认是inner join
+MySQL简写
+left outer join : left join
+right outer join : right join
+没有fulll outer join,需要用Union进行左连接和右连接的合并
