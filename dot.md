@@ -5,7 +5,7 @@
  - example2.dot:  
  
  ![](https://github.com/yxr123456/Resource/blob/master/lab2example2dot.png)  
- 
+  
  - example1.dot:  
  
  ![](https://github.com/yxr123456/Resource/blob/master/lab2example1dot.png)  
@@ -14,13 +14,13 @@
   
    - 任务一：修改example2，让3个square模块变成2个  
 
-&emsp;&emsp;<font color="green">理解example2.xml中的代码可以知道，原来的代码是通过iterator将三个square模块连接起来，再将生产者进程模块连接在第一个square模块的头部，将消费者进程模块连接在最后一个square模块的尾部，从而实现将生产者进程的输入进行8次方计算然后作为消费者进程的输出。  
-&emsp;&emsp;所以，要实现实验的要求，将iterater的次数设置为2，即通过iterater将两个square模块连接起来即可。 </font>  
+&emsp;&emsp;理解example2.xml中的代码可以知道，原来的代码是通过iterator将三个square模块连接起来，再将生产者进程模块连接在第一个square模块的头部，将消费者进程模块连接在最后一个square模块的尾部，从而实现将生产者进程的输入进行8次方计算然后作为消费者进程的输出。  
+&emsp;&emsp;所以，要实现实验的要求，将iterater的次数设置为2，即通过iterater将两个square模块连接起来即可。  
 
    - 任务二：修改example1，使其输出3次方数  
  
-&emsp;&emsp;<font color="green">理解square.c中的代码可以知道，该程序中的square_fire函数是先从输入端读入生产者进程产生的值，然后通过i=i * i进行平方，然后再将结果写到输出端，这样就实现了平方运算。   
-&emsp;&emsp;所以要实现3次方，只需将i = i * i 改为i = i * i * i 即可，这样就实现了三次方运算。</font>  
+&emsp;&emsp;理解square.c中的代码可以知道，该程序中的square_fire函数是先从输入端读入生产者进程产生的值，然后通过i=i * i进行平方，然后再将结果写到输出端，这样就实现了平方运算。   
+&emsp;&emsp;所以要实现3次方，只需将i = i * i 改为i = i * i * i 即可，这样就实现了三次方运算。    
 
 ### 3. 实验感想  
 
