@@ -45,8 +45,8 @@
 	sudo apt-get update
 
 &emsp;&emsp;接着就是安装ROS，建议是完全安装。通过执行以下命令可以进行安装：
-
-	sudo apt-get install ros-jade-desktop-full
+  
+&emsp;&emsp;sudo apt-get install ros-jade-desktop-full
 
 &emsp;&emsp;安装过程如下图所示：  
 
