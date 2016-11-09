@@ -24,7 +24,7 @@
   
     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-&emsp;&emsp;执行的正确结果如下图所示：  
+&emsp;&emsp;执行的部分结果如下图所示：  
 
 &emsp;&emsp;![](https://github.com/yxr123456/Resource/blob/master/SetupSourceList.JPG)  
 
@@ -33,7 +33,7 @@
 
 	sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
 
-&emsp;&emsp;执行的正确结果如下图所示： 
+&emsp;&emsp;执行的部分结果如下图所示： 
 
 &emsp;&emsp;![](https://github.com/yxr123456/Resource/blob/master/SetupKeys.JPG)
 
