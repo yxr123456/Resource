@@ -69,7 +69,7 @@
 
 	sudo apt-get install python-rosinstall
 
-&emsp;&emsp;步骤6和7的过程如下图所示：
+&emsp;&emsp;配置环境和安装rosinstall的过程如下图所示：
 
 &emsp;&emsp;![](https://github.com/yxr123456/Resource/blob/master/EnvironmentSetupAndInstall.JPG)
 
