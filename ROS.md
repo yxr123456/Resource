@@ -77,9 +77,13 @@
 &emsp;&emsp;安装了ROS后，在网上找了一个小例子来玩一玩ROS，既能验证ROS安装成功，同时也体验一下ROS这个软件的乐趣。  
 
 &emsp;&emsp;例子如下图所示：  
+  
 ![](https://github.com/yxr123456/Resource/blob/master/sample.JPG)  
-&emsp;&emsp;按照图中的命令进行操作，可以控制小乌龟的运动，得到下图：    
-![](https://github.com/yxr123456/Resource/blob/master/turtle.JPG)  
+  
+&emsp;&emsp;按照图中的命令进行操作，可以控制小乌龟的运动，得到下图：  
+    
+![](https://github.com/yxr123456/Resource/blob/master/turtle.JPG)
+  
 &emsp;&emsp;这里附上例子的链接：[例子](http://www.cnblogs.com/cv-pr/p/4829015.html)
 
 ## 3.实验感想
